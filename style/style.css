@@ -32,12 +32,12 @@ button:hover {
   transform: scale(1.05);
   transition: 0.2s;
 }
-h2.title {
+h2.titulo {
   color: #fff;
   font-size: 38px;
   text-align: center;
 }
-h2.title span {
+h2.titulo span {
   color: #0495d8;
 }
 /*ESTILO DO CABEÇALHO*/
@@ -79,14 +79,8 @@ section.topo-do-site .flex {
   justify-content: center;
   gap: 90px;
 }
-.topo-do-site h1 {
-  color: #fff;
-  font-size: 42px;
-  line-height: 40px;
-}
-.topo-do-site .txt-topo-site h1 span {
-  color: #0495d8;
-}
+
+
 .topo-do-site .txt-topo-site p {
   color: #fff;
   margin: 40px 0px;
@@ -151,6 +145,7 @@ section.sobre .flex{
   font-size: 40px;
   line-height: 40px;
   margin-bottom: 30px;
+  text-align: left;
 }
 .sobre .txt-sobre h2 span{
   color: #0495d8;
@@ -172,4 +167,18 @@ section.sobre .flex{
   cursor: pointer;
   margin: 0 5px;
   transition: .2s;
+}
+/*ESTILO DO PORTIFOLIO*/
+section.portifolio{
+  padding: 80px 4%;
+  box-shadow: 0px 0px 40px 10px #ffffff18;
+}
+.img-port{
+  width: 360px;
+  height: 460px;
+  background-color: #0495d8;
+}
+section.portifolio .flex{
+  justify-content: space-around;
+  padding: 40px 4%;
 }
