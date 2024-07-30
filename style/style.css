@@ -177,6 +177,7 @@ section.portifolio{
   width: 360px;
   height: 460px;
   background-color: #0495d8;
+  border-radius: 25px;
 }
 section.portifolio .flex{
   justify-content: space-around;
