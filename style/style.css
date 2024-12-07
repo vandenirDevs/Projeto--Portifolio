@@ -183,3 +183,24 @@ section.portifolio .flex{
   justify-content: space-around;
   padding: 40px 4%;
 }
+
+@media (max-width: 576px) {
+  body {
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 920px) {
+  body {
+    padding: 20px;
+    text-align: center;
+  }
+}
